@@ -1,0 +1,24 @@
+﻿  AddTrains.cpp
+  AdminClass.cpp
+  DisplayPassengers.cpp
+  DisplayTrains.cpp
+  EditPassenger.cpp
+  Files.cpp
+  Login.cpp
+  LoginForm.cpp
+f:\project\railwayreservation team 40 [2019]\railwayreservation\railwayreservation\LoginForm.h(569): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+f:\project\railwayreservation team 40 [2019]\railwayreservation\railwayreservation\LoginForm.h(726): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+f:\project\railwayreservation team 40 [2019]\railwayreservation\railwayreservation\LoginForm.h(723): warning C4101: 'readCurrentTime': unreferenced local variable
+  MyForm.cpp
+  PassengerClass.cpp
+  PassengerForm.cpp
+  RequestClass.cpp
+  TrainClass.cpp
+  ViewRequests.cpp
+  Generating Code...
+f:\project\railwayreservation team 40 [2019]\railwayreservation\railwayreservation\loginform.h(576): warning C4700: uninitialized local variable 'nowPassenger' used
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  RailwayReservation.vcxproj -> F:\Project\RailwayReservation Team 40 [2019]\RailwayReservation\Debug\RailwayReservation.exe
+  RailwayReservation.vcxproj -> F:\Project\RailwayReservation Team 40 [2019]\RailwayReservation\Debug\RailwayReservation.pdb (Full PDB)

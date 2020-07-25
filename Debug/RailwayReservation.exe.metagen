@@ -1,0 +1,106 @@
+  RailwayReservation.AddTrains.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.DisplayPassengers.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.DisplayTrains.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.EditPassenger.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.LoginForm.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.MyForm.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.PassengerForm.resources - Embedded, ContainedInManifestFile, 
+  RailwayReservation.ViewRequests.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly RailwayReservation, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct AdminClass: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class RailwayReservation.EditPassenger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox pasPassBox : Public
+    System.Windows.Forms.TextBox pasMailBox : Public
+    System.Windows.Forms.TextBox pasNameBox : Public
+    System.Windows.Forms.TextBox pasIDBox : Public
+    System.Windows.Forms.Label PasPassword : Public
+    System.Windows.Forms.Label PasMail : Public
+    System.Windows.Forms.Label PasName : Public
+    System.Windows.Forms.Label PasID : Public
+    System.Windows.Forms.ComboBox choosePasBox : Public
+Class RailwayReservation.AddTrains: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label TravelTime : Public
+    System.Windows.Forms.Label TicketPrice : Public
+    System.Windows.Forms.Label AvailableSeats : Public
+    System.Windows.Forms.Label EndPoint : Public
+    System.Windows.Forms.Label StartPoint : Public
+    System.Windows.Forms.Label TrainNum : Public
+    System.Windows.Forms.TextBox trainNumBox : Public
+    System.Windows.Forms.TextBox sPointBox : Public
+    System.Windows.Forms.TextBox ePointBox : Public
+    System.Windows.Forms.TextBox ticketBox : Public
+    System.Windows.Forms.TextBox avSeatsBox : Public
+    System.Windows.Forms.Label chooseTrainLabel : Public
+    System.Windows.Forms.ComboBox chooseTrainBox : Public
+Class RailwayReservation.DisplayPassengers: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label PasName : Public
+    System.Windows.Forms.Label PasPassword : Public
+    System.Windows.Forms.Label PasMail : Public
+    System.Windows.Forms.Label PasID : Public
+Class RailwayReservation.DisplayTrains: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label TravelDate : Public
+    System.Windows.Forms.Label TicketPrice : Public
+    System.Windows.Forms.Label AvailableSeats : Public
+    System.Windows.Forms.Label DistinationPoint : Public
+    System.Windows.Forms.Label BoardingPoint : Public
+    System.Windows.Forms.Label TrainNum : Public
+    System.Windows.Forms.Button BookBtn : Public
+    System.Windows.Forms.Label trainID : Public
+    Int32 pasnow : Public, Static
+Class RailwayReservation.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean editClicked : Public
+    Boolean disClicked : Public
+Class RailwayReservation.ViewRequests: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label reqDateTravelLabel : Public
+    System.Windows.Forms.Label reqDestinationLabel : Public
+    System.Windows.Forms.Label reqBoardingLabel : Public
+    System.Windows.Forms.Label trainNum : Public
+    System.Windows.Forms.Label requestID : Public
+Class RailwayReservation.PassengerForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button viewBtn : Public
+    System.Windows.Forms.Label reqDateTravelLabel : Public
+    System.Windows.Forms.Label reqDestinationLabel : Public
+    System.Windows.Forms.Label reqBoardingLabel : Public
+    Int32 isLogged : Public, Static
+Class RailwayReservation.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean regist : Public
+    Boolean isAdmin : Public
